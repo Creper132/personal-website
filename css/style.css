@@ -1,0 +1,112 @@
+/* 
+    Made by Creper132
+    https://github.com/Creper132/personal-website
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    overflow-y: hidden;
+    font-size: 16px;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,29,122,1) 0%, rgba(255,0,0,1) 100%);
+    color: white;
+    cursor: url('../cursors/normal.cur'), default;
+}
+
+h1 {
+    font-size: 42px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+h1 img {
+    width: 56px;
+    vertical-align: middle;
+    border-radius: 10px; 
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a, i, button {
+    cursor: url('../cursors/link.cur'), pointer;
+}
+
+main {
+    padding-left: 19px;
+}
+
+a:visited {
+    color: red;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    padding: 10px;
+    display: inline-block;
+    transition: all .5s ease-in-out;
+}
+
+nav a:hover {
+    transform: scale(1.2);
+}
+
+nav a:hover i {
+    color: #ff4040;
+}
+
+nav a i {
+    font-size: 36px;
+    color: white;
+}
+
+button {
+    background-color: rgba(30, 30, 30, 0.2);
+    color: white;
+    border: none;
+    outline: none;
+    padding: 5px;
+    min-height: 50px;
+    margin: 10px 0;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: all .5s ease-in-out;
+    min-width: 40%;
+}
+
+button span {
+    font-size: 16px;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background-color: rgba(30, 30, 30, 0.5);
+}
+
+footer {
+    text-align: center;
+    padding: 19px;
+    margin-top: 50px;
+}
+
+.device {
+    color: #ff4040;
+    text-shadow: 1px 1px 10px black;
+}
