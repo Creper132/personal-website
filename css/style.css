@@ -50,8 +50,12 @@ main {
     padding-left: 19px;
 }
 
-a:visited {
+a {
     color: red;
+}
+
+a:visited {
+    color: lightgreen;
 }
 
 nav {
