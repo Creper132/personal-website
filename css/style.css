@@ -16,8 +16,6 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    height: 100vh;
-    overflow-y: hidden;
     font-size: 16px;
     background: rgb(0,0,0);
     background: linear-gradient(90deg, rgba(0,29,122,1) 0%, rgba(255,0,0,1) 100%);
@@ -48,6 +46,7 @@ a, i, button {
 
 main {
     padding-left: 19px;
+    margin-top: 100px;
 }
 
 a {
@@ -106,6 +105,10 @@ button:hover {
 
 footer {
     padding: 19px;
+}
+
+ul {
+    list-style: none;
 }
 
 .device {
