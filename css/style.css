@@ -16,6 +16,7 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
+    height: 100vh;
     font-size: 16px;
     background: rgb(0,0,0);
     background: linear-gradient(90deg, rgba(0,29,122,1) 0%, rgba(255,0,0,1) 100%);
@@ -85,7 +86,7 @@ button {
     color: white;
     border: none;
     outline: none;
-    padding: 5px;
+    padding: 19px;
     min-height: 50px;
     margin: 10px 0;
     font-weight: bold;
@@ -100,6 +101,7 @@ button span {
 
 button:hover {
     transform: scale(1.1);
+    margin: 10px;
     background-color: rgba(30, 30, 30, 0.5);
 }
 
